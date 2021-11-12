@@ -4,13 +4,20 @@
     display: grid;
     grid-template-columns: repeat(var(--grid-size), auto);
     justify-content: center;
-    margin: 5em 0 0 0;
+    margin: 3em 0 0 0;
 }
 .grid_child{
     border: 1px solid black;
     width: var(--grid-square);
     height: var(--grid-square);
 }
-.passed{
-    background-color: black;
+#clear_btn{
+    display: block;
+    margin: 3em auto;
+    padding: 0.5rem 1rem;
+    font-size: larger;
+    background: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
 }

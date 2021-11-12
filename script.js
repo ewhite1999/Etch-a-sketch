@@ -11,8 +11,8 @@ const createGrid = () => {
     let counter = 90;
     gridChild.forEach(child => {
         child.addEventListener("mouseover", function () {
-            counter -= 5;
-            child.style.backgroundColor = `hsl(0,0%,${counter}%)`;
+            counter -= 1;
+            child.style.backgroundColor = `hsl(300,76%,${counter}%)`;
         });
     });
 }
