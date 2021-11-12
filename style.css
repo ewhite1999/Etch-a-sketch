@@ -6,9 +6,13 @@
     display: grid;
     grid-template-columns: repeat(var(--grid-size), auto);
     justify-content: center;
+    margin: 5em 0 0 0;
 }
 .grid_child{
     border: 1px solid black;
     width: var(--grid-square);
     height: var(--grid-square);
+}
+.passed{
+    background-color: gray;
 }
