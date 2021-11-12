@@ -1,8 +1,6 @@
-:root{
-    --grid-size: 16;
-    --grid-square: calc(500px / var(--grid-size));
-}
+
 #grid_container{
+    --grid-square: calc(500px / var(--grid-size));
     display: grid;
     grid-template-columns: repeat(var(--grid-size), auto);
     justify-content: center;
@@ -14,5 +12,5 @@
     height: var(--grid-square);
 }
 .passed{
-    background-color: gray;
+    background-color: black;
 }
