@@ -1,0 +1,14 @@
+:root{
+    --grid-size: 16;
+    --grid-square: calc(500px / var(--grid-size));
+}
+#grid_container{
+    display: grid;
+    grid-template-columns: repeat(var(--grid-size), auto);
+    justify-content: center;
+}
+.grid_child{
+    border: 1px solid black;
+    width: var(--grid-square);
+    height: var(--grid-square);
+}
